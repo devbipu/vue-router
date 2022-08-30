@@ -1,13 +1,8 @@
-# vue-router-vschool
+# vue-router 4 by devbipu
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the practice project for Vue 3 and Vue Router by devbipu
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
+It's using vite as compliller 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup

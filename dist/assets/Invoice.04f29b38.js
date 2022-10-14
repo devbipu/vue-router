@@ -1,1 +1,0 @@
-import{_ as a,g as s,h as t,o as c,c as i,a as u,t as f}from"./index.b81a85e4.js";const l={setup(){const e=s(window.username);return t((n,r)=>{if(!window.confirm("Are you sure, you want to leave the Page"))return!1}),{username:e}}};function m(e,n,r,o,p,_){return c(),i("div",null,[u("h2",null,"Invoice page "+f(o.username),1)])}const v=a(l,[["render",m]]);export{v as default};

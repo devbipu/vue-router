@@ -4,6 +4,7 @@ import router from './router'
 import AppLink from './components/AppLink.vue'
 
 import './assets/main.css'
+import './assets/bootstrap.min.js'
 
 const app = createApp(App)
 

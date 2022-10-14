@@ -1,1 +1,0 @@
-import{_ as n,r as s,o as c,c as a,a as e,b as r,w as _,d as o}from"./index.b81a85e4.js";const d={},l=e("h2",null,"Not found ",-1),u=o("Go back to "),i=o("Home");function m(f,p){const t=s("router-link");return c(),a("div",null,[l,e("p",null,[u,r(t,{to:{name:"HomeRoute"}},{default:_(()=>[i]),_:1})])])}const k=n(d,[["render",m]]);export{k as default};

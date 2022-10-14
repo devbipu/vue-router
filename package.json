@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.1",
-    "vite": "^3.0.1"
+    "vite": "^3.0.1",
+    "vite-plugin-rewrite-all": "^1.0.0"
   }
 }

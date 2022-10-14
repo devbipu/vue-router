@@ -1,13 +1,13 @@
 <template>
   <main>
     <div class="container">
-      <h2>All Items</h2>
+      <h2>All Places</h2>
       <div class="row">
         <template v-for="ds in destinations" :key="ds.id">
           <div class="col-md-3">
             <router-link :to="{name: 'DestinationDetails', params: {slug: ds.slug, id: ds.id}}">
               <div class="card">
-                <img :src="`./src/assets/img/${ds.image}`" class="card-img-top" alt="...">
+                <img :src="`./img/${ds.image}`" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">{{ds.name}}</h5>
                 </div>

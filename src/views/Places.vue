@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<img :src="`/src/assets/img/${places.image}`" class="card-img-top" alt="...">
+		<img :src="`/img/${places.image}`" class="card-img-top" alt="...">
 		<div class="card-body">
 		   <h5 class="card-title">{{places.name}}</h5>
 		</div>

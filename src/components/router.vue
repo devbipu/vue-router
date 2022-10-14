@@ -7,7 +7,6 @@
  	<nav class="navbar navbar-expand-lg bg-light">
 	  <div class="container-fluid">
 	    <RouterLink to="/" class="navbar-brand">Vue Router </RouterLink>
-	    <AppLink to="https://www.youtube.com/">Home Route</AppLink>
 	    <div class="collapse navbar-collapse" id="navbarNav">
 	      <ul class="navbar-nav">
 	        <li class="nav-item" v-for="ds in destinations" :key="ds.id">

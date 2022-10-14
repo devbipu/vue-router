@@ -1,0 +1,1 @@
+import{_ as t,r as a,o as r,c as n,a as e,b as s,w as c,d as l}from"./index.b81a85e4.js";const _={},d=l("Dashboard");function i(u,f){const o=a("router-link");return r(),n("div",null,[e("ul",null,[e("li",null,[s(o,{to:{name:"Dashboard"}},{default:c(()=>[d]),_:1})])])])}const p=t(_,[["render",i]]);export{p as default};

@@ -1,13 +1,13 @@
 <script setup>
 import {RouterView} from 'vue-router';
-import NavLinks from './components/router.vue';
+import NavLinks from './components/Navbar.vue';
 </script>
 
 <template>
   <header>
      <NavLinks/>
   </header>
-  <main class="container-fluid py-4">
+  <main class="container-fluid">
     <router-view class="view left-sidebar" name="LeftSideBar"></router-view>
    <RouterView v-slot="{Component}" class="main-view">
      <transition name="slide" mode="out-in">

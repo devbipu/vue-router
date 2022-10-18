@@ -39,6 +39,9 @@
 				)
 			},
 			experience(){
+				// if (this.destination) {
+				// 	return this.router.push('/');
+				// }
 				return this.destination.experiences.find(
 					experience => experience.slug == this.exprienceSlug
 				)
@@ -46,7 +49,10 @@
 		},
 		beforeRouteEnter(to, from, next){
 			return next()
-		}
-
+		},
+		mounted(){
+			console.log(this.destination);
+			console.log(this.$router.params)
+		},
 	}
 </script>

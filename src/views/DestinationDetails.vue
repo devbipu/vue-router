@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<div class="container">
-			<BackBtn />
 			<div class="card mb-3">
 			  <div class="row g-0">
 			    <div class="col-md-4">
@@ -36,10 +35,9 @@
 <script>
 	import storeData from '../store.js';
 	import PlacesCard from './Places.vue';
-	import BackBtn from '../components/BackBtn.vue';
 	export default{
 		name: 'DestinationDetails',
-		components: {PlacesCard, BackBtn},
+		components: {PlacesCard},
 		props: {
 			slug: {
 				type: String,
@@ -53,5 +51,9 @@
 				)
 			}
 		},
+		created(){
+
+			console.log(this.$router)
+		}
 	}
 </script>

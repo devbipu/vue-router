@@ -10,7 +10,7 @@ import NavLinks from './components/Navbar.vue';
   <main class="container-fluid">
     <router-view class="view left-sidebar" name="LeftSideBar"></router-view>
    <RouterView v-slot="{Component}" class="main-view">
-     <transition name="slide" mode="out-in">
+     <transition name="fade" mode="out-in">
        <component :is="Component" :key="$route.path"></component>
      </transition>
    </RouterView> 
@@ -18,14 +18,14 @@ import NavLinks from './components/Navbar.vue';
 </template>
 
 
-<style lang="css" scoped>
-  .slide-leave-to, .slide-enter-form{
+<style lang="css">
+  .fade-leave-to, .fade-enter-form{
     opacity: .3;
     transform: scale(.9);
   }
 
-  .slide-leave-active, .slide-enter-active{
-    transition: opacity .4s, transform .5s;
+  .fade-leave-active, .fade-enter-active{
+    transition: opacity .2s, transform .2s;
   }
 
 
